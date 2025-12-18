@@ -48,7 +48,7 @@ This lab environment is designed to simulate a real-world help desk and IT admin
 - Provides **internet access** for updates and package installations
 - **DNS configured through the Domain Controller** to support Active Directory services
 
-### 🎯 Lab Objectives
+### 🎯 Lab Objectives #-virtualization-setup
 - Practice Active Directory user and group management
 - Apply Group Policy Objects (GPOs)
 - Troubleshoot common help desk issues
