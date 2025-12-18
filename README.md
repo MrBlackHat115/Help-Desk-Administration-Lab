@@ -196,6 +196,8 @@ This section covers setting up **Windows Active Directory (AD)** in a VirtualBox
 ## 📥 Downloading Windows ISOs
 
 ### 🔹 Windows Server (2019 or 2022)
+<img width="1000" height="750" alt="image" src="https://github.com/user-attachments/assets/14c830e4-0cc5-4ce1-aab1-b215762a368a" />
+
 1. Visit the **Microsoft Evaluation Center**: https://www.microsoft.com/en-us/evalcenter
 2. Download **one** of the following:
    - **Windows Server 2019**
@@ -208,6 +210,8 @@ This section covers setting up **Windows Active Directory (AD)** in a VirtualBox
 ---
 
 ### 🔹 Windows 11 (Desktop Clients)
+<img width="724" height="407" alt="image" src="https://github.com/user-attachments/assets/e9a680b3-e7b8-4af0-9aaf-494604498b87" />
+
 1. Visit the **Microsoft Evaluation Center**: https://www.microsoft.com/en-us/evalcenter
 2. Download:
    - **Windows 11 Enterprise ISO**
@@ -396,6 +400,7 @@ This snapshot allows you to roll back before domain joining or software installa
 ---
 
 ### 4️⃣ Install VirtualBox Guest Additions
+<img width="499" height="388" alt="image" src="https://github.com/user-attachments/assets/18825703-64c3-4aa3-a7a5-57c72a93e445" />
 
 1. From the VM menu:
    - `Devices → Insert Guest Additions CD Image`
