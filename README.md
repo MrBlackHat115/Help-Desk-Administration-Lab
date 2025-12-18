@@ -685,7 +685,7 @@ If you would like to continue building your skills beyond this lab, the followin
   Hands-on cybersecurity training covering Linux, Windows, Active Directory, and real-world attack/defense concepts.  
   https://certifications.tcm-sec.com
 
-  - **CompTIA A+ Certification**  
+- **CompTIA A+ Certification**  
   Industry-standard entry-level IT certification covering hardware, operating systems, troubleshooting, networking fundamentals, and security basics.  
   https://www.comptia.org/certifications/a
 
