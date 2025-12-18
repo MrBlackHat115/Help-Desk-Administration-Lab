@@ -65,7 +65,7 @@ YouTube Tutorial: https://www.virtualbox.org/wiki/Downloads
 
 Here is a video of how you add virtual machines to VirtualBox: https://www.youtube.com/watch?v=CMGa6DsGIpc&t=25s&pp=ygUXdmlydHVhbGJveCBhZGQgbWFjaGluZXM%3D
 
-## 🐧 Linux Lab Installation Steps (Desktop)
+## 🐧 Linux Lab Setup
 <img width="660" height="359" alt="image" src="https://github.com/user-attachments/assets/721b94bb-781a-4c9b-87f2-25b7b179090e" />
 
 
@@ -144,7 +144,7 @@ Add the appropriate users to this group as required by the tickets below.
 
 ---
 
-## 🎟️ Linux Tickets
+## 🎫 Linux Tickets
 
 The following practice tickets are designed to simulate **real-world IT Help Desk scenarios**.  
 Each ticket includes a problem description, but **does not include a solution**, allowing students to troubleshoot, document findings, and resolve issues on their own.
@@ -615,7 +615,7 @@ Shared folders allow controlled access to resources using group-based permission
 3. Choose a drive letter (e.g., `E:`)
 4. Enter the path:
 
-## 🎟️ Windows Tickets
+## 🎫 Windows Tickets
 
 The following practice tickets are designed to simulate **real-world IT Help Desk scenarios**.  
 Each ticket includes a problem description but **does not include a solution**, allowing students to troubleshoot, document findings, and resolve issues on their own.
