@@ -685,13 +685,9 @@ If you would like to continue building your skills beyond this lab, the followin
   Hands-on cybersecurity training covering Linux, Windows, Active Directory, and real-world attack/defense concepts.  
   https://certifications.tcm-sec.com
 
-- **TryHackMe**  
-  Beginner-to-intermediate labs for Linux administration, Windows environments, and security fundamentals.  
-  https://tryhackme.com
-
-- **Hack The Box (Academy)**  
-  In-depth technical training focused on system administration, Active Directory, and security operations.  
-  https://academy.hackthebox.com
+- **Red Hat Training & Certification**  
+  Official Red Hat courses for Linux system administration, automation, and enterprise environments (RHCSA, RHCE).  
+  https://www.redhat.com/en/services/training-and-certification
 
 - **Linux Foundation Training**  
   Official Linux system administration and certification prep courses.  
