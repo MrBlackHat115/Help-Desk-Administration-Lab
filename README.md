@@ -687,7 +687,7 @@ If you would like to continue building your skills beyond this lab, the followin
 
 - **CompTIA A+ Certification**  
   Industry-standard entry-level IT certification covering hardware, operating systems, troubleshooting, networking fundamentals, and security basics.  
-  https://www.comptia.org/certifications/a
+  https://www.comptia.org/en-us/certifications/a/core-1-v15
 
 - **Red Hat Training & Certification**  
   Official Red Hat courses for Linux system administration, automation, and enterprise environments (RHCSA, RHCE).  
