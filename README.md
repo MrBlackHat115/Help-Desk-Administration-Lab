@@ -19,6 +19,15 @@ Through guided exercises and real scenarios, users will gain experience troubles
 7. [🎫 Windows Tickets](#-windows-tickets)
 8. [📚 Resources & Conclusion](#-resources-&-conclusion)
 
+## ✅ Prerequisites
+
+Before starting this lab, you should have:
+
+- Basic computer knowledge (file management, installing software, navigating the OS)  
+- Basic understanding of networking concepts (IP addresses, DNS, DHCP)  
+- Familiarity with **Windows** and **Linux** operating systems  
+- A system capable of running virtualization software (VirtualBox or VMware)  
+
 ## 🧰 Tools and OS Requirements
 
 This lab is designed to simulate real-world help desk and IT administration environments. The following tools and operating systems are required to complete the labs successfully.
