@@ -17,6 +17,8 @@ Through guided exercises and real scenarios, users will gain experience troubles
 5. [🎫 Linux Tickets](#-linux-tickets)
 6. [🪟 Windows Active Directory Setup](#-windows-active-directory-setup)
 7. [🎫 Windows Tickets](#-windows-tickets)
+8. [📚 Resources & Conclusion](#-resources-&-conclusion)
+9. [🧠 Conclusion](#-conclusion)
 
 ## 🧰 Tools and OS Requirements
 
@@ -40,7 +42,7 @@ This lab environment is designed to simulate a real-world help desk and IT admin
 - **Host Machine**: Windows 10/11 running virtualization software
 - **Windows Server VM**: Acts as the Active Directory Domain Controller
 - **Two Windows Clients VMs**: Joined to the domain for user and policy testing
-- **Linux Server VM**: Used within the work environment to run the ticketing system and required supporting services like the web server and database.
+- **Linux Server VM**: Used within the work environment to perform system administration tasks and run required supporting services such as SSH, scheduled update jobs, and user/group management.
 - **Optional Security VM**: Kali Linux for troubleshooting and testing
 
 ### 🔗 Network Configuration
@@ -668,3 +670,38 @@ These tickets are designed to help you practice **critical thinking, troubleshoo
 - **Priority:** Medium
 - **Description:** Request to create a new domain user account for a newly hired employee.
 
+## 📚 Resources & Conclusion
+
+### 🔗 Learning Resources
+
+If you would like to continue building your skills beyond this lab, the following resources are highly recommended:
+
+- **TCM Security (The Cyber Mentor)**  
+  Hands-on cybersecurity training covering Linux, Windows, Active Directory, and real-world attack/defense concepts.  
+  https://tcm-sec.com
+
+- **TryHackMe**  
+  Beginner-to-intermediate labs for Linux administration, Windows environments, and security fundamentals.  
+  https://tryhackme.com
+
+- **Hack The Box (Academy)**  
+  In-depth technical training focused on system administration, Active Directory, and security operations.  
+  https://academy.hackthebox.com
+
+- **Linux Foundation Training**  
+  Official Linux system administration and certification prep courses.  
+  https://training.linuxfoundation.org
+
+- **Microsoft Learn**  
+  Free, official learning paths for Windows Server, Active Directory, and enterprise administration.  
+  https://learn.microsoft.com
+
+---
+
+### 🧠 Conclusion
+
+After taking the **TCM Practical Help Desk Analyst (PHDA) exam**, I was inspired to build this lab as a way to reinforce my own skills while also helping others gain **hands-on, real-world experience**.
+
+This lab is designed to simulate realistic IT Help Desk and junior system administration tasks across both **Linux and Windows Active Directory environments**. Rather than providing step-by-step solutions, the focus is on **critical thinking, troubleshooting, and documentation**, which are essential skills for anyone entering IT or cybersecurity roles.
+
+My goal is for this lab to serve as a practical learning environment where users can confidently practice, make mistakes, and grow their technical abilities in a safe, controlled setting.
