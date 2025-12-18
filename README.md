@@ -11,11 +11,12 @@ Through guided exercises and real scenarios, users will gain experience troubles
 ## 📚 Table of Contents
 
 1. [🧰 Tools and OS Requirements](#-tools-and-os-requirements)
-2. [⚙️ Lab Setup Overview](#️-lab-setup-overview)
+2. [⚙️ Lab Setup Overview](#-lab-setup-overview)
 3. [🖥️ Virtualization Setup](#-virtualization-setup)
 4. [🐧 Linux Lab Setup](#-linux-lab-setup)
-5. [🪟 Windows Active Directory Setup](#-windows-active-directory-setup)
-6. [Tickets](#tickets)
+5. [🎫 Linux Tickets](#-linux-tickets)
+6. [🪟 Windows Active Directory Setup](#-windows-active-directory-setup)
+7. [🎫 Windows Tickets](#-windows-tickets)
 
 ## 🧰 Tools and OS Requirements
 
@@ -65,6 +66,8 @@ YouTube Tutorial: https://www.virtualbox.org/wiki/Downloads
 Here is a video of how you add virtual machines to VirtualBox: https://www.youtube.com/watch?v=CMGa6DsGIpc&t=25s&pp=ygUXdmlydHVhbGJveCBhZGQgbWFjaGluZXM%3D
 
 ## 🐧 Linux Lab Installation Steps (Desktop)
+<img width="660" height="359" alt="image" src="https://github.com/user-attachments/assets/721b94bb-781a-4c9b-87f2-25b7b179090e" />
+
 
 1. Download **Ubuntu Desktop 22.04 LTS** ISO.
 2. Create a new virtual machine in VirtualBox / VMware.
@@ -105,6 +108,31 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 ```
 
+## 👥 User and Group Setup (Lab Requirement)
+
+To simulate a real-world Linux administration environment, lab users must create **at least three local users** and **one group**.
+
+### 👤 User Accounts
+Create the following local users:
+
+- **alex.it** — IT Support user (standard access)
+- **jamie.support** — Help Desk user (standard access)
+- **taylor.user** — End user (standard access)
+
+> ⚠️ **Important:**  
+> Do **not** grant sudo privileges to these users unless explicitly instructed.
+
+---
+
+### 👥 Group
+Create the following group:
+
+- **helpdesk**
+
+Add the appropriate users to this group as required by the tickets below.
+
+---
+
 ### 📸 Snapshot Best Practices
 
 > **Important:** Take snapshots **before and after major configuration steps**. Snapshots allow you to quickly roll back if something breaks.
@@ -113,6 +141,49 @@ sudo systemctl start ssh
 1. **VirtualBox Manager** → Select VM → `Snapshots` → `Take`
 2. Name the snapshot clearly (examples below)
 3. Click **OK**
+
+---
+
+## 🎟️ Linux Tickets
+
+The following practice tickets are designed to simulate **real-world IT Help Desk scenarios**.  
+Each ticket includes a problem description, but **does not include a solution**, allowing students to troubleshoot, document findings, and resolve issues on their own.
+
+Before you practice: Please take your time to work through these tickets **before doing any research**.  
+These tickets are designed to help you practice **critical thinking, troubleshooting, and documentation skills** by encouraging you to analyze each issue using your existing knowledge and logical reasoning.
+
+---
+
+### 🎫 Ticket 1: Create User Account
+- **Client:** IT Manager  
+- **Issue Type:** User Management  
+- **Priority:** Low  
+
+**Description:**  
+Create a new local user named `jamie.support`.  
+Ensure the account can log in and does **not** have administrative (sudo) privileges.
+
+---
+
+### 🎫 Ticket 2: Modify Group Membership
+- **Client:** Help Desk Supervisor  
+- **Issue Type:** Access Management  
+- **Priority:** Medium  
+
+**Description:**  
+Add `alex.it` and `jamie.support` to the `helpdesk` group.  
+Confirm that `taylor.user` is **not** a member of this group.
+
+---
+
+### 🎫 Ticket 3: Remove Unnecessary Privileges
+- **Client:** Security Team  
+- **Issue Type:** Privilege Review  
+- **Priority:** Medium  
+
+**Description:**  
+Audit all local users and ensure that **only authorized accounts** have sudo access.  
+Remove sudo privileges from any user accounts that should be standard users.
 
 ## 🪟 Windows Active Directory Setup
 
@@ -199,6 +270,60 @@ Set the **Administrator password** when prompted.
 5. Set DSRM password
 6. Complete the wizard and reboot
 7. After reboot, the server is now the Domain Controller.
+
+---
+
+#### 🔐 Installing Active Directory Certificate Services (AD CS)
+
+This section covers the installation and configuration of **Active Directory Certificate Services (AD CS)** on a Windows Server Domain Controller.
+
+> **Active Directory Certificate Services (AD CS)** allows an organization to create, manage, and distribute digital certificates. These certificates are used to secure communications, authenticate users and devices, and ensure data integrity within a network.
+
+---
+
+#### 📦 Install AD CS Role
+
+1. Open **Server Manager** (opens automatically by default)
+2. Click **Manage → Add Roles and Features**
+3. Click **Next** on the *Before You Begin* page
+4. On the **Installation Type** page, select:
+   - **Role-based or feature-based installation**
+5. Click **Next**
+6. Select your **local server** from the server pool → Click **Next**
+7. On the **Server Roles** page, check:
+   - **Active Directory Certificate Services**
+8. When prompted, click **Add Features**
+9. Click **Next** through the **Features** page (leave defaults)
+10. Continue clicking **Next** until you reach the **Confirmation** page
+11. Check:
+    - **Restart the server automatically if required**
+12. Click **Install**
+
+---
+
+#### ⚙️ Configure Active Directory Certificate Services (AD CS)
+
+1. In **Server Manager**, click the **flag icon** (top-right)
+2. Select **Configure Active Directory Certificate Services on the destination server**
+3. Leave the default credentials selected → Click **Next**
+4. On the **Role Services** page, select:
+   - **Certification Authority**
+5. Click **Next**
+6. Choose:
+   - **Enterprise CA** (integrates with Active Directory)
+7. Click **Next**
+8. Select:
+   - **Root CA** (first CA in the environment)
+9. Click **Next**
+10. Select:
+    - **Create a new private key**
+11. Click **Next**
+12. Leave the **Cryptography** settings and **CA Name** as default
+13. Leave the **Validity Period** set to **5 years**
+14. Leave all remaining settings as default
+15. Click **Configure**
+
+---
 
 ## 🖥️ Installing Windows 11 Client Desktops
 
@@ -490,7 +615,7 @@ Shared folders allow controlled access to resources using group-based permission
 3. Choose a drive letter (e.g., `E:`)
 4. Enter the path:
 
-## 🎟️ Tickets
+## 🎟️ Windows Tickets
 
 The following practice tickets are designed to simulate **real-world IT Help Desk scenarios**.  
 Each ticket includes a problem description but **does not include a solution**, allowing students to troubleshoot, document findings, and resolve issues on their own.
@@ -542,3 +667,4 @@ These tickets are designed to help you practice **critical thinking, troubleshoo
 - **Issue Type:** Account Management
 - **Priority:** Medium
 - **Description:** Request to create a new domain user account for a newly hired employee.
+
