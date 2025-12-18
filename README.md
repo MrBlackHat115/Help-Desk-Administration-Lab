@@ -529,7 +529,7 @@ These tickets are designed to help you practice **critical thinking, troubleshoo
 
 ---
 
-### 🎫 Ticket 4: Disable Domain User Account
+### 🎫 Ticket 4: Disable Changing Background
 - **Client:** Engineering Department
 - **Issue Type:** Account Management
 - **Priority:** High
