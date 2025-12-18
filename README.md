@@ -678,7 +678,7 @@ If you would like to continue building your skills beyond this lab, the followin
 
 - **TCM Security (The Cyber Mentor)**  
   Hands-on cybersecurity training covering Linux, Windows, Active Directory, and real-world attack/defense concepts.  
-  https://tcm-sec.com
+  https://certifications.tcm-sec.com
 
 - **TryHackMe**  
   Beginner-to-intermediate labs for Linux administration, Windows environments, and security fundamentals.  
