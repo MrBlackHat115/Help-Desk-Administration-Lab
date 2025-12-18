@@ -18,7 +18,6 @@ Through guided exercises and real scenarios, users will gain experience troubles
 6. [🪟 Windows Active Directory Setup](#-windows-active-directory-setup)
 7. [🎫 Windows Tickets](#-windows-tickets)
 8. [📚 Resources & Conclusion](#-resources-&-conclusion)
-9. [🧠 Conclusion](#-conclusion)
 
 ## 🧰 Tools and OS Requirements
 
@@ -700,13 +699,3 @@ If you would like to continue building your skills beyond this lab, the followin
 - **Microsoft Learn**  
   Free, official learning paths for Windows Server, Active Directory, and enterprise administration.  
   https://learn.microsoft.com
-
----
-
-### 🧠 Conclusion
-
-After taking the **TCM Practical Help Desk Analyst (PHDA) exam**, I was inspired to build this lab as a way to reinforce my own skills while also helping others gain **hands-on, real-world experience**.
-
-This lab is designed to simulate realistic IT Help Desk and junior system administration tasks across both **Linux and Windows Active Directory environments**. Rather than providing step-by-step solutions, the focus is on **critical thinking, troubleshooting, and documentation**, which are essential skills for anyone entering IT or cybersecurity roles.
-
-My goal is for this lab to serve as a practical learning environment where users can confidently practice, make mistakes, and grow their technical abilities in a safe, controlled setting.
