@@ -44,7 +44,7 @@ This lab is designed to simulate real-world help desk and IT administration envi
 
 ## ⚙️ Lab Setup Overview
 
-This lab environment is designed to simulate a real-world help desk and IT administration workflow. It combines Windows, Linux, Active Directory, and a ticketing system to provide hands-on experience with common IT tasks.
+This lab environment is designed to simulate a real-world help desk and IT administration workflow. It combines Windows, Linux, and Active Directory to provide hands-on experience with common IT tasks.
 
 ### 🧪 Lab Architecture
 - **Host Machine**: Windows 10/11 running virtualization software
