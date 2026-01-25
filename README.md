@@ -681,7 +681,12 @@ These tickets are designed to help you practice **critical thinking, troubleshoo
 - **Client:** IT Department
 - **Issue Type:** Account Management
 - **Priority:** Medium
-- **Description:** Request to create a new domain user account for a newly hired employee.
+- **Description:** Request to create a new domain user account for a newly hired employee. **The employee must enter a new password after entering a password.**
+
+**User Information**
+- **First Name:** Sara
+- **Last Name:** Lakewood
+- **Department:** Managment
 
 ## 📚 Resources & Conclusion
 
